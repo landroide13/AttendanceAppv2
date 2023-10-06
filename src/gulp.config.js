@@ -1,17 +1,17 @@
-const srcAssets = "src-assets";
+const srcAssets = "assets";
 
 module.exports = {
   "html": "html",
   "starter_kit": "starter-kit",
   "documentation": "documentation",
-  "src_assets": "src-assets",
-  "dist_assets": "dist-assets",
-  "src_assets_path": "../../../assets",
-  "dist_assets_path": "../../../app-assets",
+  "src_assets": "assets",
+  "dist_assets": "assets",
+  "src_assets_path": "./assets",
+  "dist_assets_path": "./assets",
   "destination": {
-    "path": "dist-assets",
-    "js": "dist-assets/js",
-    "css": "dist-assets/css"
+    "path": "assets",
+    "js": "assets/js",
+    "css": "assets/css"
   },
   "source": {
     "path": srcAssets,

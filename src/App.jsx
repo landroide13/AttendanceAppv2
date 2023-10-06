@@ -1,4 +1,3 @@
-import { useState } from 'react'
 
 import './App.css'
 
@@ -9,7 +8,7 @@ function App() {
     <>
     <div className="app-admin-wrap layout-horizontal-bar">
         <div className="main-header">
-            <div className="logo"><img src="#" alt="" /></div>
+            <div className="logo"><img src="./assets/images/madarsa_logo.jpg" /></div>
             <div className="menu-toggle">
                 <div></div>
                 <div></div>
@@ -113,18 +112,16 @@ function App() {
         <div className="horizontal-bar-wrap">
             <div className="header-topnav">
                 <div className="container-fluid">
-                    <div className="topnav rtl-ps-none" id=""  >
+                  <div className="topnav rtl-ps-none" id="">
                         <ul className="menu float-start">
+                          <li>
                             <li>
                                 <div>
                                     <div>
                                         <label className="toggle" >Dashboard</label><a href="#"><i className="nav-icon me-2 i-Bar-Chart"></i> Dashboard</a>
                                         <input id="drop-2" type="checkbox" />
                                         <ul>
-                                            <li><a href="dashboard1.html"><i className="nav-icon me-2 i-Clock-3"></i><span className="item-name">Version 1</span></a></li>
-                                            <li><a href="dashboard2.html"><i className="nav-icon me-2 i-Clock-4"></i><span className="item-name">Version 2</span></a></li>
-                                            <li><a href="dashboard3.html"><i className="nav-icon me-2 i-Over-Time"></i><span className="item-name">Version 3</span></a></li>
-                                            <li><a href="dashboard4.html"><i className="nav-icon me-2 i-Clock"></i><span className="item-name">Version 4</span></a></li>
+                                          <li><a href="dashboard2.html"><i className="nav-icon me-2 i-Clock-4"></i><span className="item-name">Version 2</span></a></li>  
                                         </ul>
                                     </div>
                                 </div>
@@ -133,21 +130,6 @@ function App() {
                                 <div>
                                     <div>
                                         <label className="toggle" htmlFor="drop-2">UI kits</label><a href="#"><i className="nav-icon me-2 i-Suitcase"></i> UI kits</a>
-                                        <input id="drop-2" type="checkbox" />
-                                        <ul>
-                                            <li><a href="alerts.html"><i className="nav-icon me-2 i-Bell1"></i><span className="item-name">Alerts</span></a></li>
-                                            <li><a href="accordion.html"><i className="nav-icon me-2 i-Split-Horizontal-2-Window"></i><span className="item-name">Accordion</span></a></li>
-                                            <li><a href="badges.html"><i className="nav-icon me-2 i-Medal-2"></i><span className="item-name">Badges</span></a></li>
-                                            <li><a href="buttons.html"><i className="nav-icon me-2 i-Cursor-Click"></i><span className="item-name">Buttons</span></a></li>
-                                            <li><a href="lists.html"><i className="nav-icon me-2 i-Belt-3"></i><span className="item-name">Lists</span></a></li>
-                                            <li><a href="pagination.html"><i className="nav-icon me-2 i-Arrow-Next"></i><span className="item-name">Paginations</span></a></li>
-                                            <li><a href="popover.html"><i className="nav-icon me-2 i-Speach-Bubble-2"></i><span className="item-name">Popover</span></a></li>
-                                            <li><a href="progressbar.html"><i className="nav-icon me-2 i-Loading"></i><span className="item-name">Progressbar</span></a></li>
-                                            <li><a href="tables.html"><i className="nav-icon me-2 i-File-Horizontal-Text"></i><span className="item-name">Tables</span></a></li>
-                                            <li><a href="tabs.html"><i className="nav-icon me-2 i-New-Tab"></i><span className="item-name">Tabs</span></a></li>
-                                            <li><a href="tooltip.html"><i className="nav-icon me-2 i-Speach-Bubble-8"></i><span className="item-name">Tooltip</span></a></li>
-                                            <li><a href="modals.html"><i className="nav-icon me-2 i-Duplicate-Window"></i><span className="item-name">Modals</span></a></li>
-                                        </ul>
                                     </div>
                                 </div>
                             </li>
@@ -266,7 +248,7 @@ function App() {
                                         </ul>
                                     </div>
                                 </div>
-                               
+                              </li> 
                             <li>
                                 <div>
                                     <div>
@@ -289,9 +271,9 @@ function App() {
                                 </div>
                             </li>
                             
-                            </li>
+                          </li>
                         </ul>
-                    </div>
+                  </div>
                 </div>
             </div>
         </div>
@@ -848,9 +830,7 @@ function App() {
                 <div className="row">
                     <div className="col-md-9">
                         <p><strong>Gull - Laravel + Bootstrap 4 admin template</strong></p>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero quis beatae officia saepe perferendis voluptatum minima eveniet voluptates dolorum, temporibus nisi maxime nesciunt totam repudiandae commodi sequi dolor quibusdam
-                            <sunt></sunt>
-                        </p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero quis beatae officia saepe perferendis voluptatum minima eveniet voluptates dolorum, temporibus nisi maxime nesciunt totam repudiandae commodi sequi dolor quibusdam</p>
                     </div>
                 </div>
                 <div className="footer-bottom border-top pt-3 d-flex flex-column flex-sm-row align-items-center">
@@ -875,7 +855,7 @@ function App() {
                 <i className="i-Close-Window text-22 text-muted"></i>
             </button>
         </div>
-        <input type="text" placeholder="Type here" className="search-input" autofocus/>
+        <input type="text" placeholder="Type here" className="search-input" />
         <div className="search-title">
             <span className="text-muted">Search results</span>
         </div>
